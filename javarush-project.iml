@@ -12,5 +12,37 @@
     <orderEntry type="library" name="fasterxml.jackson.core.annotations1" level="application" />
     <orderEntry type="library" name="ch.bind.philib" level="application" />
     <orderEntry type="library" name="fasterxml.jackson.core.databind" level="application" />
+    <orderEntry type="library" name="slf4j.api" level="application" />
+    <orderEntry type="library" name="bluecatcode.guava.19.0.extended" level="application" />
+    <orderEntry type="library" name="apache.commons.collections4" level="application" />
+    <orderEntry type="library" name="junit" level="application" />
+    <orderEntry type="library" name="hamcrest.core" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/24.0.0/annotations-24.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/my Java/jsoup-1.17.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="httpcore-4.4.16" level="project" />
+    <orderEntry type="library" name="commons-logging-1.3.0" level="project" />
+    <orderEntry type="library" name="httpclient-4.5.14" level="project" />
+    <orderEntry type="library" name="mail" level="project" />
+    <orderEntry type="library" name="javax.mail.jar" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" exported="" name="javax.mail-api-1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="javax.mail-1.6.2" level="project" />
+    <orderEntry type="library" exported="" name="activation-1.1.1" level="project" />
   </component>
 </module>
