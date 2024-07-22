@@ -44,5 +44,6 @@
     <orderEntry type="library" exported="" name="javax.mail-api-1.6.2" level="project" />
     <orderEntry type="library" exported="" name="javax.mail-1.6.2" level="project" />
     <orderEntry type="library" exported="" name="activation-1.1.1" level="project" />
+    <orderEntry type="library" name="jsoup-1.17.2" level="project" />
   </component>
 </module>
