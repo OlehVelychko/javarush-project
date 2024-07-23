@@ -41,5 +41,17 @@ public class Advertisement {
         this.amountPerOneDisplaying = amountPerOneDisplaying;
     }
 
+    public int getHits() {
+        return hits;
+    }
 
+    /**
+     * Checks if the number of impressions is not a positive number and reduces this number by one
+     */
+    public void revalidate() {
+        if (hits == 0) {
+            throw new UnsupportedOperationException();
+        }
+        hits--;
+    }
 }
