@@ -9,25 +9,24 @@ public enum Dish {
 
     private int duration;
 
-    Dish(int duration) {
-        this.duration = duration;
-    }
-
     public int getDuration() {
         return duration;
     }
 
-    /**
-     * Creates all dish names string from enumeration
-     *
-     * @return string dish names
-     */
-    public static String allDishesToString() {
-        StringBuilder dishes = new StringBuilder();
-        for (Dish dish : Dish.values()) {
-            dishes.append(dish + ", ");
-        }
+    Dish(int duration) {
+        this.duration = duration;
+    }
 
-        return dishes.length() > 0 ?  dishes.substring(0, dishes.length() - 2) : "";
+    public static String allDishesToString() {
+        String result = "";
+
+        for (Dish dish : Dish.values()) {
+            if ("".equals(result)) {
+                result += dish.name();
+            } else {
+                result += ", " + dish.name();
+            }
+        }
+        return result;
     }
 }
